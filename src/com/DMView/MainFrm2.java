@@ -20,10 +20,8 @@ public class MainFrm2 extends javax.swing.JFrame {
 		this.setExtendedState(MAXIMIZED_BOTH);
 	}
 
-	/** 从构造函数内部调用此方法来初始化表单。
-	 * 由表单编辑器重新生成
-	 */
-	
+
+
 	private void initComponents() {
 
 		table = new javax.swing.JDesktopPane();
@@ -65,7 +63,7 @@ public class MainFrm2 extends javax.swing.JFrame {
 		});
 		jMenu1.add(jMenuItem3);
 
-		//jMenuBar1.add(jMenu1);
+		
 
 		jMenu3.setIcon(new javax.swing.ImageIcon(
 				"D:\\Myelipse\\images4\\search.png")); // NOI18N
@@ -98,12 +96,12 @@ public class MainFrm2 extends javax.swing.JFrame {
 		jMenu2.setText("\u5e2e\u52a9");
 
 		jMenuItem5.setIcon(new javax.swing.ImageIcon(
-				"D:\\Myelipse\\images4\\about.png")); // NOI18N
+				"D:\\Myelipse\\images4\\about.png")); 
 		jMenuItem5.setText("\u5173\u4e8e");
 		jMenu2.add(jMenuItem5);
 
 		jMenuItem6.setIcon(new javax.swing.ImageIcon(
-				"D:\\Myelipse\\images4\\exit.png")); // NOI18N
+				"D:\\Myelipse\\images4\\exit.png")); 
 		jMenuItem6.setText("\u9000\u51fa\u7cfb\u7edf");
 		jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -127,8 +125,8 @@ public class MainFrm2 extends javax.swing.JFrame {
 				javax.swing.GroupLayout.DEFAULT_SIZE, 277, Short.MAX_VALUE));
 
 		pack();
-	}// </editor-fold>
-	//GEN-END:initComponents
+	}
+	
 
 	private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {
 		int a = JOptionPane.showConfirmDialog(null, "确定要退出？");
@@ -161,9 +159,7 @@ public class MainFrm2 extends javax.swing.JFrame {
 		this.table.add(Student);
 	}
 
-	/**
-	 * @param args the command line arguments
-	 */
+	
 	public static void main(String args[]) {
 		java.awt.EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -172,8 +168,6 @@ public class MainFrm2 extends javax.swing.JFrame {
 		});
 	}
 
-	//GEN-BEGIN:variables
-	// Variables declaration - do not modify
 	private javax.swing.JMenu jMenu1;
 	private javax.swing.JMenu jMenu2;
 	private javax.swing.JMenu jMenu3;
@@ -185,6 +179,6 @@ public class MainFrm2 extends javax.swing.JFrame {
 	private javax.swing.JMenuItem jMenuItem5;
 	private javax.swing.JMenuItem jMenuItem6;
 	private javax.swing.JDesktopPane table;
-	// End of variables declaration//GEN-END:variables
+	
 
 }

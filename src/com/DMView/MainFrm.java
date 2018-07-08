@@ -20,9 +20,6 @@ public class MainFrm extends javax.swing.JFrame {
 		this.setExtendedState(MAXIMIZED_BOTH);
 	}
 
-	/** 从构造函数内部调用此方法来初始化表单。
-	 * 由表单编辑器重新生成
-	 */
 	private void initComponents() {
 
 		jMenuBar2 = new javax.swing.JMenuBar();
@@ -262,9 +259,7 @@ public class MainFrm extends javax.swing.JFrame {
 		this.table.add(room);
 	}
 
-	/**
-	 * @param args the command line arguments
-	 */
+	
 	public static void main(String args[]) {
 		java.awt.EventQueue.invokeLater(new Runnable() {
 			public void run() {
