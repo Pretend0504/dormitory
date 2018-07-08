@@ -98,8 +98,7 @@ public class StudentModifyInterFrm extends javax.swing.JInternalFrame {
 		}
 	}
 
-	//GEN-BEGIN:initComponents
-	// <editor-fold defaultstate="collapsed" desc="Generated Code">
+
 	private void initComponents() {
 
 buttonGroup1 = new javax.swing.ButtonGroup();
